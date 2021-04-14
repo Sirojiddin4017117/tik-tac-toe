@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="player player-0 player-active player-0-panel" id="player-0">
+                <h1 class="name" id="name1">Palyer x</h1>
+            </div>
+            <div class="player palyer-1  player-1-panel" id="player-1">
+                <h1 class="name" id="name2">Player O</h1>
+            </div>
+        </div>
+
+        <div class="new-game" id="new-game" onclick="funcNew()">
+            <h2>New game</h2>
+        </div>
+
+        <div class="play-ground">
+            <table>
+                <tr>
+                    <td class="roll roll-1" id="roll1" onclick="funp_1()"></td>
+                    <td class="roll roll-2" id="roll2" onclick="funp_2()"></td>
+                    <td class="roll roll-3" id="roll3" onclick="funp_3()"></td>
+                </tr>
+                <tr>
+                    <td class="roll roll-4" id="roll4" onclick="funp_4()"></td>
+                    <td class="roll roll-5" id="roll5" onclick="funp_5()"></td>
+                    <td class="roll roll-6" id="roll6" onclick="funp_6()"></td>
+                </tr>
+                <tr>
+                    <td class="roll roll-7" id="roll7" onclick="funp_7()"></td>
+                    <td class="roll roll-8" id="roll8" onclick="funp_8()"></td>
+                    <td class="roll roll-9" id="roll9" onclick="funp_9()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
